@@ -8,6 +8,12 @@ El proyecto implementa una estructura de memoria parametrizable, organizada en f
 
 La memoria utiliza dos decodificadores para seleccionar la fila y columna correspondientes a una dirección.
 
+## Explicación en video
+
+Se puede consultar una explicación del diseño y su funcionamiento en el siguiente enlace:
+
+**[Ver explicación en YouTube](https://youtu.be/x14evDRHArg)**
+
 ## Características
 
 - Memoria parametrizable mediante `ROW_BITS`, `COL_BITS` y `DATA_WIDTH`.
@@ -41,12 +47,6 @@ Con estos valores se implementa una matriz de **4 filas × 4 columnas**, con 8 b
 **Escritura:** La dirección se divide en fila y columna. Los decodificadores habilitan la posición seleccionada y, cuando `write_enable = 1`, los latches almacenan los bits presentes en `data_in`.
 
 **Lectura:** Cuando `read_enable = 1` y `write_enable = 0`, el contenido de la posición seleccionada se presenta en `data_out`.
-
-## Explicación en video
-
-Se puede consultar una explicación del diseño y su funcionamiento en el siguiente enlace:
-
-**[Ver explicación en YouTube](https://youtu.be/x14evDRHArg)**
 
 ## Herramientas utilizadas
 
