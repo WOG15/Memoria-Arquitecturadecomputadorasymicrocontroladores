@@ -1,0 +1,8 @@
+Time resolution is 1 ps
+PASS: Addr=0 Data=a5
+PASS: Addr=5 Data=3c
+PASS: Addr=9 Data=f0
+PASS: Addr=5 Data=ff
+PASS: Addr=0 Data=a5
+PASS: Addr=9 Data=f0
+$finish called at time : 160 ns : File "C:/Users/walfr/Desktop/Memoria-Arquitecturadecomputadorasymicrocontroladores/tarea_memoria/tarea_memoria.srcs/sim_1/new/tb_memory_top.sv" Line 120
